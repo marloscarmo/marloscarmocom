@@ -1,0 +1,21 @@
+{
+  "name": "marloscarmo",
+  "description": "Marlos Carmo's site",
+  "main": "gulpfile.js",
+  "authors": [
+    "Marlos Carmo <marlos@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "www.marloscarmo.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "normalize-css": "^4.2.0"
+  }
+}

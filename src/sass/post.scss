@@ -1,0 +1,167 @@
+@import 'variables';
+@import 'mixins';
+
+.post {
+  @include display-flex();
+  height: 100%;
+
+  & p {
+    margin-top: 0;
+  }
+
+  &.post-green {
+    & h2, & h3, & h4, & ul li:before {
+      color: $green;
+    }
+  }
+
+  &.post-orange {
+    & h2, & h3, & h4, & ul li:before {
+      color: $orange;
+    }
+  }
+
+  &.post-yellow {
+    & h2, & h3, & h4, & ul li:before {
+      color: $yellow;
+    }
+  }
+}
+
+.post-header {
+  @include display-flex();
+  @include flex-direction-vertical();
+  @include justify-content-center();
+  color: white;
+  position: fixed;
+  height: 100%;
+  width: 450px;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.post-author {
+  @include display-flex();
+  @include align-item-center();
+  width: 100%;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.post-author-photo {
+  overflow:hidden;
+  margin: auto;
+
+  & img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 50%;
+  }
+}
+
+.post-date, .post-title, .post-category {
+  margin: 0 30px;
+}
+
+.post-date {
+  font-size: 0.8em;
+  margin-left: 32px;
+  line-height: 0em;
+  font-weight: 600;
+}
+
+.post-title h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+  line-height: 0.88;
+  letter-spacing: -0.05em;
+  margin: 14px 0;
+  margin-top: 20px;
+  text-transform: uppercase;;
+}
+
+.post-category {
+  color: white;
+  font-size: 0.8em;
+  font-weight: 300;
+  display: inline-block;
+  padding-top: 6px;
+  line-height: 0em;
+  text-transform: uppercase;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    background-color: white;
+    width: 30px;
+    margin-right: 6px;
+  }
+
+  & ul {
+    padding: 0;
+    list-style: none;
+    display: inline;
+
+    & li {
+      display: inline;;
+
+      &:after {
+        content: ",";
+        margin-right: 6px;
+      }
+
+      &:last-child:after {
+        display: none;
+      }
+
+      & a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+.post-content {
+  padding: 128px 70px 60px 70px;
+  margin-left: 450px;
+  position: absolute;
+  font-weight: 300;
+  color: $light-gray;
+
+  & strong {
+    color: #555;
+    font-weight: 600;
+  }
+
+  & h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+  }
+
+  & h3 {
+    margin-top: 40px;
+    margin-bottom: 12px;
+    font-size: 1.5em;
+  }
+
+  & ul {
+    margin-bottom: 40px;
+    padding: 0;
+
+    & li {
+      list-style: none;
+      color: $light-gray;
+      font-weight: 300;
+      padding-left: 6px;
+
+      &:before {
+       content: "\25E6";
+       margin-right: 10px;
+      }
+    }
+  }
+}
