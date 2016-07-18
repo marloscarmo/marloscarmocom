@@ -33,8 +33,7 @@
         <ul>
           <li><a href="/">home</a></li>
           <li><a href="/#articles">blog</a></li>
-          <li><a href="/#projects">projects</a></li>
-          <li><a href="/materials">materials</a></li>
+          <li><a href="/#projects">projetos</a></li>
           <li><a href="/#bio">bio</a></li>
         </ul>
       </nav>
