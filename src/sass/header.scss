@@ -2,11 +2,14 @@
 @import 'mixins';
 
 header {
-  @include prefix(background-image, linear-gradient(135deg, $orange-gradient-start 51%, $orange-gradient-end));
   height: 68px;
   position: fixed;
   width: 100%;
   z-index: 10;
+
+  &.header-orange {
+    @include prefix(background-image, linear-gradient(135deg, $orange-gradient-start 51%, $orange-gradient-end));
+  }
 }
 
 .brand a {

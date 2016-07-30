@@ -17,7 +17,7 @@
   </head>
   <body>
 
-    <header>
+    <header class="header-orange">
       <div class="brand">
         <a href="/">marloscarmo<span class="brand-light">.com</span></a>
       </div>
@@ -31,9 +31,9 @@
 
       <nav class="nav-menu">
         <ul>
-          <li><a href="/">home</a></li>
+          <li><a href="/#cover">home</a></li>
           <li><a href="/#articles">blog</a></li>
-          <li><a href="/#projects">projetos</a></li>
+          <li><a href="/#projects">projects</a></li>
           <li><a href="/#bio">bio</a></li>
         </ul>
       </nav>

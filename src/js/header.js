@@ -1,4 +1,45 @@
 /*
+Background Menu
+*/
+
+var sectionHeight = $(window)[0].screen.availHeight;
+var headerHeight = $('header').height();
+
+if ($('.cover').length > 0) {
+  $('header').removeClass('header-orange');
+
+  $(window).scroll(function(e) {
+    var scrollY = e.currentTarget.scrollY;
+
+    if (scrollY > sectionHeight - headerHeight - 80) {
+      $('header').addClass('header-orange');
+    } else {
+      $('header').removeClass('header-orange');
+    }
+  });
+}
+
+
+/*
+Menu Navigation
+*/
+
+$('a').click(function(e) {
+  var link = e.currentTarget.href;
+
+  if (link.indexOf('#') > 0 ) {
+    e.preventDefault();
+
+    var id = link.split('#')[1];
+    var sectionY = $('#' + id)[0].offsetTop;
+
+    $('html, body').animate({
+      scrollTop: sectionY - $('header').height()
+    }, 500, 'swing');
+  }
+});
+
+/*
 Search box
 */
 

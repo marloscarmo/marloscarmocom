@@ -1,11 +1,11 @@
-<section class="cover">
+<section class="cover" id="cover">
   <h1>MarlosCarmo <div class="cover-ghost"></div></h1>
   <span class="cover-desc">development, project management & audience</span>
 
-  <a class="btn big-btn cover-btn" href="#">know more</a>
+  <a class="btn big-btn cover-btn" href="#articles">know more</a>
 </section>
 
-<section class="articles brown-box">
+<section class="articles brown-box" id="articles">
   <div class="container">
     <h2 class="section-title brown">BLOG</h2>
     <span class="section-desc brown">Algumas opiniões sem compromisso.</span>
@@ -38,8 +38,8 @@
   </div>
 </section>
 
-<section class="projects yellow-box">
-  <h2 class="section-title">PROJETOS</h2>
+<section class="projects yellow-box" id="projects">
+  <h2 class="section-title">PROJECTS</h2>
   <span class="section-desc brown">Alguns projetos para facilitar a vida.</span>
 
   <div class="project-item">
@@ -79,7 +79,7 @@
   </div>
 </section>
 
-<section class="bio green-box">
+<section class="bio green-box" id="bio">
   <h2 class="section-title">BIO</h2>
   <span class="section-desc brown">Um pouco sobre mim.</span>
 
