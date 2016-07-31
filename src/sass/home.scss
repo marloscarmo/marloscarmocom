@@ -20,6 +20,7 @@ Cover
     line-height: 0.6em;
     letter-spacing: -0.08em;
     color: white;
+    display: block;
   }
 }
 
@@ -29,8 +30,19 @@ Cover
   background-position: 0 0;
   width: 120px;
   height: 110px;
-  display: inline-block;
+  position: absolute;
   margin-top: 40px;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation: ghost-anim 3s steps(100, end) infinite;
+}
+
+@-webkit-keyframes ghost-anim {
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 40px;
+  }
 }
 
 .cover-desc {

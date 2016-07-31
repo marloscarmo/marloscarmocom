@@ -1,3 +1,7 @@
+    <?php
+    if (!is_single()) {
+    ?>
+
     <footer>
       <div class="container">
         <div class="footer-contact">
@@ -11,6 +15,10 @@
         </div>
       </div>
     </footer>
+
+    <?php
+    }
+    ?>
 
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>

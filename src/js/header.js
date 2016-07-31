@@ -24,20 +24,22 @@ if ($('.cover').length > 0) {
 Menu Navigation
 */
 
-$('a').click(function(e) {
-  var link = e.currentTarget.href;
+if ($('.cover').length > 0) {
+  $('a').click(function(e) {
+    var link = e.currentTarget.href;
 
-  if (link.indexOf('#') > 0 ) {
-    e.preventDefault();
+    if (link.indexOf('#') > 0 ) {
+      e.preventDefault();
 
-    var id = link.split('#')[1];
-    var sectionY = $('#' + id)[0].offsetTop;
+      var id = link.split('#')[1];
+      var sectionY = $('#' + id)[0].offsetTop;
 
-    $('html, body').animate({
-      scrollTop: sectionY - $('header').height()
-    }, 500, 'swing');
-  }
-});
+      $('html, body').animate({
+        scrollTop: sectionY - $('header').height()
+      }, 500, 'swing');
+    }
+  });
+}
 
 /*
 Search box

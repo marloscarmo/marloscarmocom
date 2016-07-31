@@ -41,7 +41,3 @@ $color = $GLOBALS["COLORSCATEGORIES"][strtolower(single_cat_title("", false))];
     </div>
   </div>
 </section>
-
-<?php
-get_footer();
-?>
