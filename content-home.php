@@ -14,27 +14,11 @@
     <h2 class="section-title brown">BLOG</h2>
     <span class="section-desc brown">Sharing opinions.</span>
 
-    <?php if (have_posts()) { while (have_posts()) { the_post() ?>
+    <?php if (have_posts()) { while (have_posts()) { the_post();
 
-    <div class="article-item article-<?php echo $GLOBALS["COLORSCATEGORIES"][strtolower(get_the_category()[0]->name)];?>">
-      <div class="article-title">
-        <div class="article-container">
-          <h3><?php echo get_the_title(); ?></h3>
-          <div class="article-category">
-            <?php echo the_category(); ?>
-          </div>
-        </div>
-      </div>
+    require("part/articles.php");
 
-      <div class="article-excerpt">
-        <div class="article-container">
-          <?php echo wpautop(get_the_excerpt()); ?>
-          <a href="<?php echo get_permalink(); ?>" class="btn">LEIA O ARTIGO</a>
-        </div>
-      </div>
-    </div>
-
-    <?php } } ?>
+    } } ?>
 
     <div class="articles-nav">
       <a href="/articles" class="btn big-btn brown more-articles-btn">MORE ARTICLES</a>
