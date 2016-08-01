@@ -1,6 +1,13 @@
-<?php /* Template Name: Artigos */
+<?php
+/*
+Template Name: Artigos
+*/
 
 get_header();
+
+$page = ($_REQUEST["page"] == undefined) ? 1 : $_REQUEST["page"];
+
+echo $paged;
 
 $posts = get_posts( array(
   'posts_per_page' => 10,
@@ -25,12 +32,10 @@ $posts = get_posts( array(
 
       require("part/articles.php");
     }
+
+    require("part/pagination.php");
     ?>
 
-    <div class="articles-nav">
-      <a href="#" class="btn big-btn brown more-articles-btn">< PREVIOUS</a>
-      <a href="#" class="btn big-btn brown more-articles-btn">NEXT ></a>
-    </div>
   </div>
 </section>
 

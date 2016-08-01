@@ -12,16 +12,15 @@ $color = $GLOBALS["COLORSCATEGORIES"][strtolower(single_cat_title("", false))];
 <section class="category-articles articles brown-box">
   <div class="container">
 
-    <?php if (have_posts()) { while (have_posts()) { the_post();
+    <?php
+    if (have_posts()) { while (have_posts()) { the_post();
 
-    require("part/articles.php");
+      require("part/articles.php");
 
-    } } ?>
+    } }
 
+    require("part/pagination.php");
+    ?>
 
-    <div class="articles-nav">
-      <a href="#" class="btn big-btn brown more-articles-btn">< PREVIOUS</a>
-      <a href="#" class="btn big-btn brown more-articles-btn">NEXT ></a>
-    </div>
   </div>
 </section>

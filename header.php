@@ -26,7 +26,9 @@
 
       <div class="search">
         <div class="search-icon"></div>
-        <input class="search-input" type="text" name="search" value="" placeholder="search">
+        <form role="search" method="get" id="searchform" action="/">
+        <input class="search-input" type="text" name="s" id="s" value="" placeholder="search">
+        </form>
       </div>
 
       <nav class="nav-menu">
