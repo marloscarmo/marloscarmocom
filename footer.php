@@ -9,9 +9,9 @@
           <a href="mailto:marlos@marloscarmo.com">marlos@marloscarmo.com</a>
         </div>
         <div class="footer-social">
-          <a class="social-icons icon-linkedin" href="#"></a>
-          <a class="social-icons icon-github" href="#"></a>
-          <a class="social-icons icon-twitter" href="#"></a>
+          <a class="social-icons icon-linkedin" href="https://br.linkedin.com/in/marloscarmo" target="_blank"></a>
+          <a class="social-icons icon-github" href="https://github.com/marloscarmo" target="_blank"></a>
+          <a class="social-icons icon-twitter" href="https://twitter.com/marloscarmo" target="_blank"></a>
         </div>
       </div>
     </footer>

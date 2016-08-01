@@ -10,11 +10,12 @@
   @include transition(200ms);
   background-color: white;
   margin: 50px 0;
-  box-shadow: 0 23px 27px -10px rgba(0, 0, 0, .2);
+  box-shadow: 0 0 0 0 transparent, inset 0 0 90px 25px hsla(0, 6%, 91%, .5);
+  @include prefix(transform, scale(0.98));
 
   &:hover {
-    @include prefix(transform, scale(0.98));
-    box-shadow: 0 0 0 0 transparent, inset 0 0 90px 25px hsla(0, 6%, 91%, .5);
+    @include prefix(transform, scale(1));
+    box-shadow: 0 23px 27px -10px rgba(0, 0, 0, .2);
   }
 
   &.article-green {

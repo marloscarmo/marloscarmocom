@@ -13,35 +13,50 @@ Cover
   height: 100%;
   width: 100%;
 
-  & h1 {
-    font-family: $secondary-font;
-    font-weight: 700;
-    font-size: 7.2em;
-    line-height: 0.6em;
-    letter-spacing: -0.08em;
-    color: white;
-    display: block;
+  & .cover-title {
+    @include display-flex();
+
+    & h1 {
+      font-family: $secondary-font;
+      font-weight: 700;
+      font-size: 7.2em;
+      line-height: 0.6em;
+      letter-spacing: -0.08em;
+      color: white;
+      margin-left: -140px;
+      display: block;
+    }
+
+    .cover-ghost {
+      background-image: url('../images/ghost.png');
+      background-size: cover;
+      background-position: 0 0;
+      width: 121px;
+      height: 110px;
+      position: absolute;
+      margin-top: 20px;
+      margin-left: 10px;
+      -webkit-animation-timing-function: ease-in;
+      -webkit-animation: ghost-anim 3s steps(100, end) infinite;
+    }
   }
 }
 
-.cover-ghost {
-  background-image: url('../images/ghost.png');
-  background-size: cover;
-  background-position: 0 0;
-  width: 120px;
-  height: 110px;
-  position: absolute;
-  margin-top: 40px;
-  -webkit-animation-timing-function: ease-in;
-  -webkit-animation: ghost-anim 3s steps(100, end) infinite;
+@keyframes ghost-anim {
+  50% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 20px;
+  }
 }
 
 @-webkit-keyframes ghost-anim {
   50% {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   100% {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 
@@ -116,7 +131,7 @@ Projects
   margin:auto;
   width: 75%;
 
-  & p {
+  & p, & a {
     color: darken($brown, 10);
   }
 }
