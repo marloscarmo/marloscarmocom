@@ -7,7 +7,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/photo-marlos-carmo.jpg" alt="Marlos Carmo" />
       </div>
     </div>
-    <div class="post-date">03 DE JULHO</div>
+    <div class="post-date"><?php the_date('d \d\e F \d\e Y'); ?></div>
     <div class="post-title">
       <h1><?php echo the_title(); ?></h1>
     </div>

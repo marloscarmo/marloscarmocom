@@ -25,7 +25,10 @@ get_header();
       }
     } else {
     ?>
-      <span class="no-results">Não foi encontrado nenhum resultado com a palavra: <br><strong><?php echo get_search_query();?></strong>.</span>
+      <span class="no-results">
+        Não foi encontrado nenhum resultado com a palavra: <br>
+        <strong><?php echo get_search_query();?></strong>.
+      </span>
     <?php
     }
 

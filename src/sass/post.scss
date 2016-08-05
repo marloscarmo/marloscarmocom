@@ -68,6 +68,7 @@
   margin-left: 32px;
   line-height: 0em;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .post-title h1 {
@@ -131,7 +132,7 @@
   font-weight: 300;
   color: $light-gray;
 
-  & strong {
+  & strong, & b {
     color: #555;
     font-weight: 600;
   }
