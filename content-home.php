@@ -1,7 +1,9 @@
 <section class="cover" id="cover">
   <div class="cover-title">
-    <h1>MarlosCarmo </h1>
-    <div class="cover-ghost"></div>
+    <h1>MarlosCarmo</h1>
+    <div class="cover-ghost">
+      <div class="cover-ghost-img"></div>
+    </div>
   </div>
 
   <span class="cover-desc">development, project management & audience</span>

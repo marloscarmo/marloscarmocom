@@ -15,6 +15,8 @@ Cover
 
   & .cover-title {
     @include display-flex();
+    @include flex-direction-horizontal();
+    @include justify-content-center();
 
     & h1 {
       font-family: $secondary-font;
@@ -23,21 +25,23 @@ Cover
       line-height: 0.6em;
       letter-spacing: -0.08em;
       color: white;
-      margin-left: -140px;
-      display: block;
     }
 
     .cover-ghost {
-      background-image: url('../images/ghost.png');
-      background-size: cover;
-      background-position: 0 0;
       width: 121px;
-      height: 110px;
-      position: absolute;
-      margin-top: 20px;
-      margin-left: 10px;
-      -webkit-animation-timing-function: ease-in;
-      -webkit-animation: ghost-anim 3s steps(100, end) infinite;
+
+      & .cover-ghost-img {
+        background-image: url('../images/ghost.png');
+        background-size: cover;
+        background-position: 0 0;
+        width: 121px;
+        height: 110px;
+        margin-top: 20px;
+        margin-left: 20px;
+        position: absolute;
+        -webkit-animation-timing-function: ease-in;
+        -webkit-animation: ghost-anim 3s steps(100, end) infinite;
+      }
     }
   }
 }
