@@ -207,18 +207,56 @@ Bio
 Tablet - Vertical
 */
 @media (max-width: 991px) {
-  .cover h1 {
-    font-size: 5em;
-  }
+  .cover {
+    & .cover-title {
+      & h1 {
+        font-size: 5em;
+      }
 
-  .cover-ghost {
-    width: 90px;
-    height: 80px;
+      & .cover-ghost {
+        width: 115px;
+
+        & .cover-ghost-img {
+          width: 85px;
+          height: 78px;
+          margin-top: 10px;
+        }
+      }
+    }
   }
 
   .cover-desc {
     font-size: 1.8em;
     font-weight: 300;
+  }
+
+  @keyframes ghost-anim {
+    50% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 10px;
+    }
+  }
+
+  @-webkit-keyframes ghost-anim {
+    50% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 10px;
+    }
+  }
+
+  .bio-photo {
+    width: 210px;
+    height: 210px;
+    margin: 0 20px;
+
+    img {
+      width: 210px;
+      height: 210px;
+    }
   }
 }
 
@@ -226,21 +264,72 @@ Tablet - Vertical
 Smartphone - Horizontal
 */
 @media (max-width: 767px) {
+  .cover .cover-title h1 {
+    font-size: 4em;
+  }
 
+  .bio .container {
+    @include flex-direction-vertical();
+
+    .bio-tags, .bio-desc {
+      margin: 0 20px;
+      width: auto;
+      text-align: center;
+    }
+  }
+
+  .project-item .project-name {
+    font-size: 5.2em;
+  }
+
+  .project-excerpt {
+    width: 85%;
+
+    p {
+      font-size: 1.3em;
+    }
+  }
 }
 
 /*
 Smartphone - Vertical
 */
 @media (max-width: 479px) {
-  .cover h1 {
-    font-size: 3.2em;
-    line-height: 0em;
+  .cover {
+    & .cover-title {
+      & h1 {
+        font-size: 3.2em;
+        line-height: .2em;
+      }
+
+      & .cover-ghost {
+        width: 75px;
+
+        & .cover-ghost-img {
+          width: 55px;
+          height: 48px;
+          margin-top: 0px;
+        }
+      }
+    }
   }
 
-  .cover-ghost {
-    width: 60px;
-    height: 50px;
+  @keyframes ghost-anim {
+    50% {
+      margin-top: -5px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+
+  @-webkit-keyframes ghost-anim {
+    50% {
+      margin-top: -5px;
+    }
+    100% {
+      margin-top: 0px;
+    }
   }
 
   .cover-desc {

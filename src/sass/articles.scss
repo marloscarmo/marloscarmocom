@@ -99,3 +99,57 @@
   font-size: 1.4em;
   text-align: center;
 }
+
+
+/*
+Tablet - Vertical
+*/
+@media (max-width: 991px) {
+
+}
+
+/*
+Smartphone - Horizontal
+*/
+@media (max-width: 767px) {
+  .articles {
+    padding: 70px 10px;
+  }
+
+  .article-item {
+    @include flex-direction-vertical();
+  }
+
+  .article-title, .article-excerpt {
+    width: 100%;
+  }
+
+  .article-excerpt {
+    .article-container {
+      @include display-flex();
+      @include flex-direction-vertical();
+      @include align-item-center();
+
+      p {
+        font-size: 1.3em;
+      }
+
+      .btn {
+        margin: 20px 0;
+        padding: 16px 30px;
+      }
+    }
+  }
+
+  .article-category a {
+    font-size: 1.3em;
+    line-height: 1.3em;
+  }
+}
+
+/*
+Smartphone - Vertical
+*/
+@media (max-width: 479px) {
+
+}

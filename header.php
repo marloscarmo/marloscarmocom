@@ -27,7 +27,7 @@
       <div class="search">
         <div class="search-icon"></div>
         <form role="search" method="get" id="searchform" action="/">
-        <input class="search-input" type="text" name="s" id="s" value="" placeholder="search">
+          <input class="search-input" type="text" name="s" id="s" value="" placeholder="search">
         </form>
       </div>
 
@@ -46,14 +46,15 @@
       <div class="close-btn"></div>
 
       <div class="search-mobile">
-        <input class="search-input" type="text" name="search" value="" placeholder="search">
+        <form role="search" method="get" id="searchform" action="/">
+          <input class="search-input" type="text" name="s" id="s" value="" placeholder="search">
+        </form>
       </div>
 
       <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">articles</a></li>
-        <li><a href="#">projects</a></li>
-        <li><a href="#">bio</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="/#cover">home</a></li>
+        <li><a href="/#articles">blog</a></li>
+        <li><a href="/#projects">projects</a></li>
+        <li><a href="/#bio">bio</a></li>
       </ul>
     </nav>

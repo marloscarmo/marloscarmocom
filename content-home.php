@@ -86,7 +86,7 @@
       <span class="tag-medium">#scrum</span>
       <span class="tag-big">#projectmanagement</span>
       <span class="tag-big">#audience</span>
-      <span class="tag-medium">#osep</span>
+      <span class="tag-medium">#entrepreneur</span>
       <span class="tag-medium">#leadership</span>
     </div>
 
