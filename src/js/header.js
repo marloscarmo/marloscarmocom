@@ -2,7 +2,7 @@
 Background Menu
 */
 
-var sectionHeight = $(window)[0].screen.availHeight;
+var sectionHeight = $(window).height();
 var headerHeight = $('header').height();
 
 if ($('.cover').length > 0) {
