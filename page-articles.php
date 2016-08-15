@@ -18,7 +18,7 @@ $posts = get_posts( array(
 
 <section class="category category-orange">
   <div class="section-title">
-    <h1>Artigos</h1>
+    <h1>Blog</h1>
     <span class="section-desc">Sharing opinions</span>
   </div>
 </section>

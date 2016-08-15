@@ -84,7 +84,7 @@
 .post-category {
   color: white;
   font-size: 0.8em;
-  font-weight: 300;
+  font-weight: 400;
   display: inline-block;
   padding-top: 6px;
   line-height: 0em;
@@ -124,11 +124,9 @@
   }
 }
 
-
 .post-content {
   padding: 128px 70px 60px 70px;
   margin-left: 450px;
-  position: absolute;
   font-weight: 300;
   color: $light-gray;
 
@@ -162,6 +160,56 @@
       &:before {
        content: "\25E6";
        margin-right: 10px;
+      }
+    }
+  }
+}
+
+footer {
+  display: none;
+}
+
+
+/*
+Tablet - Vertical
+*/
+@media (max-width: 991px) {
+  .post {
+    display: block;
+    padding-top: 68px;
+    height: auto;
+
+    .post-header {
+      position: relative;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .post-content {
+      margin-left: 0;
+      display: block;
+      padding: 60px 70px;
+    }
+  }
+
+  footer {
+    display: block;
+  }
+}
+
+/*
+Smartphone - Horizontal
+*/
+@media (max-width: 767px) {
+  .post {
+    .post-content {
+      padding: 30px 30px;
+
+      p {
+        font-size: 1.2em;
       }
     }
   }

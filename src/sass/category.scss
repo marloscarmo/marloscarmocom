@@ -83,3 +83,24 @@
     }
   }
 }
+
+
+/*
+Tablet - Vertical
+*/
+@media (max-width: 991px) {
+  .category .section-title .section-desc {
+    font-weight: 400;
+  }
+}
+
+
+/*
+Smartphone - Horizontal
+*/
+@media (max-width: 767px) {
+  .category .section-title h1 {
+    line-height: .8em;
+  }
+
+}
