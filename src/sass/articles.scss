@@ -9,7 +9,7 @@
   @include display-flex();
   @include transition(200ms);
   background-color: white;
-  margin: 50px 0;
+  margin: 40px 0;
   box-shadow: 0 0 0 0 transparent, inset 0 0 90px 25px hsla(0, 6%, 91%, .5);
   @include prefix(transform, scale(0.98));
 
@@ -113,7 +113,7 @@ Smartphone - Horizontal
 */
 @media (max-width: 767px) {
   .articles {
-    padding: 70px 10px;
+    padding: 40px 10px;
   }
 
   .article-item {

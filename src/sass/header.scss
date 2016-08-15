@@ -147,6 +147,10 @@ Tablet - Vertical
 Smartphone - Horizontal
 */
 @media (max-width: 767px) {
+  .brand a {
+    font-size: 1.8em;
+  }
+
   .nav-menu {
     display: none;
   }

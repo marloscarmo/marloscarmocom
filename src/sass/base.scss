@@ -135,6 +135,11 @@ Tablet - Vertical
   body {
     font-size: 1.1em;
   }
+
+  .section-desc {
+    font-size: 0.9em;
+    font-weight: 400;
+  }
 }
 
 /*
@@ -147,6 +152,11 @@ Smartphone - Horizontal
 
   .big-btn {
     padding: 20px 30px;
+  }
+
+  .section-desc {
+    font-size: 1em;
+    font-weight: 400;
   }
 }
 

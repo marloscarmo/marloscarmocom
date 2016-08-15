@@ -95,7 +95,7 @@
     </div>
 
     <div class="bio-desc">
-      Creative & Technology.<br><br>
+      <strong>Creative & Technology.</strong><br><br>
       Estas duas palavras pautaram meus 18 anos trabalhando com projetos digitais de diversos tamanhos e desafios. Atualmente sou co-fundador e diretor de operações da ZUBB, agência digital com foco no negócio. Apaixonado por inovação e por números, digo sempre que #soudev.
     </div>
   </div>
