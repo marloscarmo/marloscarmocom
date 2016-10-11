@@ -37,8 +37,6 @@ gulp.task('sass', function() {
     .pipe(gulp.dest(dirs.css));
 });
 
-
-
 gulp.task('bowerjs', function() {
   return gulp.src(mainBowerFiles())
     .pipe(filter('**/*.js'))
