@@ -12,7 +12,7 @@
       </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" async="async"></script>
     <script>
       WebFont.load({
         google: {
@@ -20,7 +20,7 @@
         }
       });
     </script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib.js" async="async"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js" async="async"></script>
   </body>
 </html>
