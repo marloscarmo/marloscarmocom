@@ -22,7 +22,6 @@
     </script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
-
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -31,6 +30,7 @@
 
       ga('create', 'UA-85613928-1', 'auto');
       ga('send', 'pageview');
+
     </script>
   </body>
 </html>
