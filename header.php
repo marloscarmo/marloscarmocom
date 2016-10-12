@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Expires" content="30" />
-    <meta name="google-site-verification" content="R-Jv99xPBtDjGqbx7e_cuJQA52P5gP_nT8FUi5bl9k4" />
     <title>marloscarmo.com - development, project management & audience</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/lib.css">
