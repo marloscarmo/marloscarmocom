@@ -12,17 +12,6 @@
       </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-    <script>
-      WebFont.load({
-        google: {
-          families: ["Montserrat:400,700","Source Sans Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic"]
-        }
-      });
-    </script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
-
     <noscript id="deferred-styles">
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/lib.css">
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css">
@@ -40,6 +29,17 @@
       if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
       else window.addEventListener('load', loadDeferredStyles);
     </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Montserrat:400,700","Source Sans Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic"]
+        }
+      });
+    </script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
