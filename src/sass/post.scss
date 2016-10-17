@@ -4,6 +4,7 @@
 .post {
   @include display-flex();
   height: 100%;
+  width: 100%;
 
   & p {
     margin-top: 0;
@@ -24,6 +25,17 @@
   &.post-yellow {
     & h2, & h3, & h4, & ul li:before {
       color: $yellow;
+    }
+  }
+
+  & .image-slider {
+    height:800px;
+    width:100%;
+    overflow-x: scroll;
+
+
+    & img {
+      float: left;
     }
   }
 }
@@ -128,6 +140,7 @@
   padding: 128px 70px 60px 70px;
   margin-left: 450px;
   font-weight: 300;
+  width: 100%;
   color: $light-gray;
 
   & strong, & b {
