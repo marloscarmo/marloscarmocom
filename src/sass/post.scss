@@ -11,8 +11,12 @@
   }
 
   &.post-green {
-    & h2, & h3, & h4, & ul li:before {
+    & h2, & h3, & h4, & ul li:before, & a {
       color: $green;
+    }
+
+    & a {
+      font-weight: bold;
     }
   }
 
