@@ -1,9 +1,9 @@
 <?php
 
 $GLOBALS["COLORSCATEGORIES"] = [
-	"tech" => "green",
-	"project management" => "yellow",
-	"entrepreneurship" => "orange"
+	"tecnologia" => "green",
+	"empreendedorismo" => "yellow",
+	"comunicacao" => "orange"
 ];
 
 add_filter('show_admin_bar', '__return_false');
