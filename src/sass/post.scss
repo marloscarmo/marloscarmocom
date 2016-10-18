@@ -201,6 +201,7 @@ Tablet - Vertical
       height: auto;
       padding: 40px 0;
       text-align: center;
+      background-color: red;
 
       .post-author {
         margin-top: -10px;
@@ -210,7 +211,11 @@ Tablet - Vertical
     .post-content {
       margin-left: 0;
       display: block;
-      padding: 60px 70px;
+      padding: 0;
+
+      .post-content-padding {
+        padding: 30px;
+      }
     }
   }
 
@@ -225,7 +230,7 @@ Smartphone - Horizontal
 @media (max-width: 767px) {
   .post {
     .post-content {
-      padding: 30px 30px;
+      padding: 0;
 
       p {
         font-size: 1.2em;

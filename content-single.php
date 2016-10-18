@@ -15,7 +15,9 @@
   </div>
 
   <div class="post-content">
-    <?php echo the_content(); ?>
+    <div class="post-content-padding">
+        <?php echo the_content(); ?>
+    </div>
   </div>
 </article>
 
