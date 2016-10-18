@@ -6,7 +6,7 @@
     </div>
   </div>
 
-  <span class="cover-desc">development, project management & audience</span>
+  <span class="cover-desc">technology, commnuication & entrepreneurship</span>
 
   <a class="btn big-btn cover-btn" href="#articles">know more</a>
 </section>
