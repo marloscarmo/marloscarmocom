@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/lib.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css">
   </head>
-  <body>
+  <body <?php body_class(); ?>>
 
     <header class="header-orange">
       <div class="brand">
