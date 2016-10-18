@@ -96,7 +96,7 @@
 
     <div class="bio-desc">
       <strong>Creativity, Technology & Entrepreneurship.</strong><br><br>
-      Estes três conceitos pautaram meus 18 anos trabalhando com projetos digitais de diversos tamanhos e desafios. Atualmente sou co-fundador e diretor de operações da ZUBB, agência digital com foco desenvolvimento de negócios. Apaixonado por inovação, números e sempre programando #soudev.
+      Estes três conceitos pautaram meus 18 anos trabalhando com projetos digitais de diversos tamanhos e desafios. Apaixonado por inovação, números e estou sempre estudando alguma coisa. Atualmente sou co-fundador e diretor de operações da ZUBB, agência digital com foco desenvolvimento de negócios.
     </div>
   </div>
 </section>
