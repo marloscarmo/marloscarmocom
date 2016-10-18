@@ -3,7 +3,6 @@
 
 .post {
   @include display-flex();
-  height: 100%;
   width: 100%;
 
   & p {
@@ -15,19 +14,19 @@
   }
 
   &.post-green {
-    & h2, & h3, & h4, & ul li:before, & a {
+    & h2, & h3, & h4, & ul li:before, & .post-content a  {
       color: $green;
     }
   }
 
   &.post-orange {
-    & h2, & h3, & h4, & ul li:before, & a {
+    & h2, & h3, & h4, & ul li:before, & .post-content a {
       color: $orange;
     }
   }
 
   &.post-yellow {
-    & h2, & h3, & h4, & ul li:before, & a {
+    & h2, & h3, & h4, & ul li:before, & .post-content a {
       color: $yellow;
     }
   }
