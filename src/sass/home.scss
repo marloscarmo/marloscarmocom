@@ -183,7 +183,7 @@ Bio
   overflow:hidden;
   width: 250px;
   height: 250px;
-  margin: 0 40px;
+  margin: 0 20px;
   border-radius:50%;
   @include prefix(transform, scale(0.9));
   box-shadow: 0 0 0 1000px rgba(white, 0);
@@ -286,7 +286,7 @@ Smartphone - Horizontal
       }
 
       .bio-photo {
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 20px;
       }
 
