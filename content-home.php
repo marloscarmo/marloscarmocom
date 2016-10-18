@@ -6,7 +6,7 @@
     </div>
   </div>
 
-  <span class="cover-desc">technology, communication & entrepreneurship</span>
+  <span class="cover-desc">creativity, technology & entrepreneurship</span>
 
   <a class="btn big-btn cover-btn" href="#articles">know more</a>
 </section>
@@ -14,7 +14,7 @@
 <section class="articles brown-box" id="articles">
   <div class="container">
     <h2 class="section-title brown">BLOG</h2>
-    <span class="section-desc brown">Sharing opinions.</span>
+    <span class="section-desc brown">Sharing thoughts.</span>
 
     <?php if (have_posts()) { while (have_posts()) { the_post();
 
@@ -95,8 +95,8 @@
     </div>
 
     <div class="bio-desc">
-      <strong>Creative & Technology.</strong><br><br>
-      Estas duas palavras pautaram meus 18 anos trabalhando com projetos digitais de diversos tamanhos e desafios. Atualmente sou co-fundador e diretor de operações da ZUBB, agência digital com foco no negócio. Apaixonado por inovação e por números, digo sempre que #soudev.
+      <strong>Creativity, Technology & Entrepreneurship.</strong><br><br>
+      Estes três conceitos pautaram meus 18 anos trabalhando com projetos digitais de diversos tamanhos e desafios. Atualmente sou co-fundador e diretor de operações da ZUBB, agência digital com foco desenvolvimento de negócios. Apaixonado por inovação, números e sempre programando #soudev.
     </div>
   </div>
 </section>
