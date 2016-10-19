@@ -10,6 +10,12 @@ header {
   &.header-orange {
     @include prefix(background-image, linear-gradient(135deg, $orange-gradient-start 51%, $orange-gradient-end));
   }
+
+  .search {
+    float: right;
+    margin: 16px;
+    cursor: pointer;
+  }
 }
 
 .brand a {
@@ -46,12 +52,6 @@ header {
       }
     }
   }
-}
-
-.search {
-  float: right;
-  margin: 16px;
-  cursor: pointer;
 }
 
 .search-icon {
