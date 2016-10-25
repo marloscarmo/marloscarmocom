@@ -3,7 +3,7 @@
 $GLOBALS["COLORSCATEGORIES"] = [
 	"tecnologia" => "green",
 	"empreendedorismo" => "yellow",
-	"comunicacao" => "orange"
+	"comunicação" => "orange"
 ];
 
 add_filter('show_admin_bar', '__return_false');
